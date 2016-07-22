@@ -1,0 +1,76 @@
+<div>
+	<header>
+		今日头条
+	</header>
+	<aside>
+		<span>推荐</span>
+		<span>视频</span>
+		<span>热度</span>
+		<span>社会</span>
+	</aside>
+</div>
+
+<article>
+	<section ng-repeat='new in news'>
+		<a ng-href='{{new.url}}'>
+		<p>{{new.title}}</p>
+		<img  ng-src="{{new.picUrl}}"/>
+		<p>
+			<span>{{new.description
+}}</span>
+			评论:<span>888</span>
+			<span>{{new.ctime}}</span>
+		</p>
+		</a>
+	</section>
+</article>
+<style>
+a{
+	text-decoration: none;
+	color: #333;
+}
+	header{
+		top: 0;
+		background-color: red;
+		text-align: center;
+		height: 50px;
+		line-height: 50px;
+		width: 100%;
+		color: #fff;
+		position: fixed;
+		z-index: 10;
+	}
+	img{
+		height: 120px;
+		width: 200px;
+	}
+	aside{
+		position: fixed;
+		padding-bottom: 8px;
+		background: #f4f5f6;
+		padding: 10px 5px;
+		font-size: 16px;
+		top: 50px;
+		z-index: 10;
+		width: 100%;
+	}
+	article{
+		padding-top: 90px;
+		position: relative;
+	}
+	article section{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-bottom: solid 1px #eee;
+	}
+	article section p:nth-of-type(1){
+		padding-left: 5px;
+		padding-bottom: 5px;
+		font-weight: bold;
+		font-size: 12px;
+	}
+	article section p:nth-of-type(2){
+		color: #666;
+		font-size: 12px;
+	}
+</style>
