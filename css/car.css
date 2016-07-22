@@ -1,0 +1,57 @@
+#logo,#car_box{width: 100%;}
+#logo,body{background: #fff;}
+#guide_box .big_box{margin-top: 0;}
+#head_nav .register_box,#logo .box,#navbox .nav,#guide_box .big_box,#serves .servers,#guide_box .big_box .box,#foot .center{width: 990px;}
+#guide_box .big_box .box .top .lunbo{width: 902px;}
+#guide_box .big_box .box .top .lunbo .long ul {width: 901px;}
+#guide_box .big_box .box .bottom ul{width: 440px;}
+#guide_box .big_box .box .bottom ul.part2{margin-left: 51px;}
+#navbox .nav .ul1 li{width:60px}
+#navbox .nav .ul2 li{margin-right: 14px;}
+#navbox .nav .ul2{margin-left: 80px;}
+#serves .servers .ul1{width: 988px;}
+#serves .servers .list dl{width: 115px;}
+#foot .center .end{left: 130px;}
+/*logo部分样式*/
+.logo{width: 990px;height: 85px;margin: 0 auto;background: #fff;}
+.logo .part1{padding-top: 22px;}
+.logo .part2 {padding-top: 35px;}
+.logo .part2 li{float: left;width: 200px;height: 20px;line-height: 20px; background: #e8e8e8;;}
+/*购物车部分样式*/
+.car_box{width: 988px;border: solid 1px #eeeeee;min-height: 203px;margin: 0 auto;}
+.car_box .shuxing{height: 42px;border-bottom: solid 1px #eee;}
+.car_box .shuxing p{display: inline-block;}
+.car_box .shuxing .checkall{padding-left: 20px;padding-top: 13px;}
+.car_box .shuxing .checkall a i{width: 15px;height: 13px;background: url(img/checkes_bg.png) -17px -197px;display: inline-block;}
+.car_box .shuxing .goodsName{padding-left: 149px;}
+.car_box .shuxing .color{padding-left: 205px;}
+.car_box .shuxing .price{padding-left: 75px;}
+.car_box .shuxing .count{padding-left: 87px;}
+.car_box .shuxing .xiaoji{padding-left: 75px;}
+.car_box .shuxing .caozuo{padding-left: 70px;}
+.car_box .goodsDetil ul li{height: 102px;width: 100%;border-bottom: dashed 1px #eee;}
+.car_box .goodsDetil ul li .check{display: inline-block;padding-left: 10px;}
+.car_box .goodsDetil ul li .check i{width: 15px;height: 13px;background: url(img/checkes_bg.png) -17px -197px no-repeat;display: inline-block;}
+.car_box .goodsDetil ul li p{display: inline-block;vertical-align: middle;}
+.car_box .vertical{display: inline-block;height: 100%;width: 0;vertical-align: middle;}
+.car_box .goodsDetil ul li .img{width: 72px;height: 72px;border:solid 1px #eee ;display: inline-block;text-indent: -10000px;margin-left: 9px;}
+.car_box .goodsDetil ul li .title{width: 245px;padding-left: 24px;line-height: 16px;}
+.car_box .goodsDetil ul li .color{width: 117px;height: auto;padding-left: 70px;}
+.car_box .goodsDetil ul li .color a{color: #a9a9a9;}
+.car_box .goodsDetil ul li .color i{font-style: normal;color: #666;}
+.car_box .goodsDetil ul li .danjia{width: 45px;height: auto;text-align: center;}
+.car_box .goodsDetil ul li .shuliang{padding-left: 55px;}
+.car_box .goodsDetil ul li .shuliang a{display: inline-block;height: 22px;width:22px;border: solid 1px #c6c6c6;margin-left: -1px;text-align: center;line-height: 22px;}
+.car_box .goodsDetil ul li .jiage{width: 54px;height: auto;color: #e60012;font-weight: bold;text-align: center;margin-left: 45px;}
+.car_box .goodsDetil ul li .del{text-align: center;padding-left: 45px;}
+.car_box .yiru{height: 47px;padding-top: 16px;padding-left: 13px;}
+.car_box .yiru a{padding-right: 37px;}
+.car_box .yiru .acheck i{width: 15px;height: 13px;background: url(img/checkes_bg.png) -17px -197px;display: inline-block;}
+.car_box .bottom{height: 54px;width: 953px;background: #eeeeee;padding-left: 36px;}
+.car_box .bottom a{display: inline-block;vertical-align: middle}
+.car_box .bottom .jixu{height: 39px;width: 123px;background: #fdf8f1;border: solid 1px #ffdd98;font-size: 16px;text-align: center;line-height: 39px;border-radius: 2px;}
+.car_box .bottom .kong{color: #3366cc;padding-left: 35px;cursor: pointer;}
+.car_box .bottom .kong:hover{color: red;}
+.car_box .bottom .zong{font-weight: bold;padding-left: 390px;}
+.car_box .bottom .zong i{font-style: normal;font-size: 16px;font-weight: bolder;color: red;}
+.car_box .bottom .jie{float: right;height: 54px;width: 129px;background: red;color: #fff;text-align: center;line-height: 54px;}

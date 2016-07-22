@@ -1,0 +1,24 @@
+#head_nav .register_box{padding-left: 100px ;width: 1090px;}
+#user,#denglu{width: 100%;background: #fff;}
+#user{border-bottom: solid 2px #f59e01;}
+#user .user{width: 1090px;height: 54px;margin:0 auto;padding-left: 100px;background: #fff;}
+#user .user span{font-size: 20px;line-height: 54px;color: #666;font-weight: bold;}
+#user .user a{display: inline-block;font-size: 14px;color: #3366cc;text-decoration: underline;margin-left: 67px;}
+#denglu .box{position: relative;width: 1190px;height: 530px;margin: 0 auto;overflow: hidden;padding-top: 45px;padding-left: 169px;}
+#denglu .box .part1{width: 528px;height: 300px;}
+#denglu .box .part1 form .text span{color: red;padding-left: 5px;}
+#denglu .box .part1 form .text input{width: 325px;height: 33px;line-height: 33px;background:url(img/input_bg.png);border:solid 1px #d5d5d5;margin-bottom: 27px;}
+#denglu .box .part1 form .delu input{margin-top: 20px;margin-left: 42px;text-indent: -1000px;overflow: hidden;width: 136px;height: 47px;background: url(img/denlu_bg.png);border: 0;}
+#denglu .box .part1 form .delu a{text-decoration: underline;color: #aaaaaa;display: inline-block;margin-left: 27px;}
+#denglu .box .part1 .p{padding-top: 35px;padding-left: 22px;color: #000;}
+#denglu .box .part1 ul{padding-left: 22px;padding-top: 18px;}
+#denglu .box .part1 ul li{float: left;height: 22px;line-height: 22px;}
+#denglu .box .part1 ul li a{color: #3366cc;}
+#denglu .box .part1 ul li i img{display: inline-block;padding-right: 8px;}
+#denglu .box .part1 ul li span{display: inline-block;padding: 0  8px;}
+#denglu .box .part2{width: 311px;height: 180px;border-left: dashed 1px #e7e7e7;padding-left: 26px;padding-top: 26px;padding-right: 156px;}
+#denglu .box .part2 .p1{padding-bottom: 14px;font-weight: bold;}
+#denglu .box .part2 .p1 a{color: #000;}
+#denglu .box .part2 .p2{line-height: 20px;}
+#denglu .box .part2 button{width: 127px;height: 30px;background: url(img/new_user.png);border: 0;margin-top: 18px;cursor: pointer;}
+#denglu .box .part3{position: absolute;left: 240px;bottom: 64px;}
